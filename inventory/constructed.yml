@@ -1,0 +1,10 @@
+plugin: constructed
+strict: false
+groups:
+  tenant_{{ tenant | lower }}: true
+  tenant_{{ tenant | lower }}_env_{{ environment | lower }}: true
+  tenant_{{ tenant | lower }}_env_{{ environment | lower }}_proj_{{ project | lower }}: true
+hostnames:
+  - "{{ vm_name }}"
+compose:
+  ansible_host: "{{ vm_ip }}"
