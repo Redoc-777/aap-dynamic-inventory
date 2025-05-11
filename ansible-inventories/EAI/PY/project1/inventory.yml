@@ -1,0 +1,6 @@
+all:
+  children:
+    EAI_PY_project1:
+      hosts:
+        host1:
+        host2:
