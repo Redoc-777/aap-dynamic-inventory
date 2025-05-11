@@ -1,10 +1,8 @@
 all:
   children:
-    EAI:
+    NY:
       children:
-        NY:
-          children:
-            project1:
-              hosts:
-                host1:
-                host2:
+        project1:
+          hosts:
+            host1:
+            host2:
