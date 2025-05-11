@@ -1,8 +1,10 @@
-all:
-  children:
-    NY:
-      children:
-        project1:
-          hosts:
-            host1:
-            host2:
+plugin: constructed
+strict: False
+
+groups:
+  NY:
+    children:
+      project1:
+        hosts:
+          host1:
+          host2:
